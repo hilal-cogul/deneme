@@ -1,5 +1,3 @@
-package gemini_karisik_sorular;
-
 interface ITibbiIslem {
     void tedaviUygula()  throws HataliIslemHatasi;
 }
@@ -62,3 +60,4 @@ class Hastane{
         acilServis.doktorAta(d2);
     }
 }
+
