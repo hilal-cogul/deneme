@@ -1,5 +1,3 @@
-package karışık_sorular;
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -139,4 +137,5 @@ class SmartHome{
         ac.turnOff();
         automation.disableDevice();
     }
+
 }
