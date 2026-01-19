@@ -1,84 +1,3 @@
-/*🎬 VERSİYON 2 – SİNEMA BİLET OTOMASYONU
-🎯 Hikâye
-
-Bir sinema salonunda farklı film seansları ve bilet türleri yönetilmektedir.
-
-🔧 Yapı Eşlemesi
-SmartHome	Sinema
-Device	Ticket
-AbstractDevice	AbstractTicket
-Lamp / AC / CoffeeMaker	StudentTicket / FullTicket / VIPTicket
-DeviceManager	TicketManager
-Automation	BookingAutomation
-📌 Temel Sınıf İsimleri
-
-Ticket
-
-AbstractTicket
-
-StudentTicket, FullTicket, VIPTicket
-
-Cinema
-
-TicketManager
-
-BookingAutomation
-
-🧠 Örnek Senaryo
-Öğrenci Bileti sisteme eklendi.
-Tam Bilet sisteme eklendi.
-VIP Bilet sisteme eklendi.
-VIP Bilet 20:30 seansına ayrıldı.
-Öğrenci Bileti kullanıldı.
-Bilet otomasyonu durduruldu.
- */
-
-/*
-🔹 VERSİYON 2 – SİNEMA BİLET OTOMASYONU
-Interface: Ticket
-
-Metotlar
-
-String getType()
-void use()
-void cancel()
-
-Abstract Class: AbstractTicket
-
-Alanlar
-
-protected String type
-protected boolean used
-
-Metotlar
-
-String getType()
-abstract void use()
-abstract void cancel()
-
-Concrete Class’lar
-StudentTicket, FullTicket, VIPTicket
-
-Override Metotlar
-void use()
-void cancel()
-
-Inner Class: TicketManager
-
-Alan
-private List<Ticket> tickets
-
-Metotlar
-void addTicket(Ticket ticket)
-
-Inner Class: BookingAutomation
-
-Metotlar
-void trigger(Ticket ticket)
-void disable()
- */
-package karışık_sorular;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -195,4 +114,5 @@ class Cinema{
         automation.triggerTicket(t1);
         automation.disableTicket();
     }
+
 }
