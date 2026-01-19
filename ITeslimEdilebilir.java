@@ -1,5 +1,3 @@
-package gemini_karisik_sorular;
-
 interface ITeslimEdilebilir {
     void teslimEt() throws KuryeBulunamadiHatasi;
 }
@@ -74,4 +72,5 @@ class YemekUygulamasi{
         System.out.println("-------------");
         siparisYoneticisi.siparisIsle(r2);
     }
+
 }
