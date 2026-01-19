@@ -55,7 +55,6 @@ Metotlar
 void register(Course course)
 void disable()
  */
-package karışık_sorular;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -186,4 +185,5 @@ class University{
     }
 
 }
+
 
