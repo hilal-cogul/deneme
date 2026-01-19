@@ -1,4 +1,3 @@
-package gemini_karisik_sorular;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -131,4 +130,5 @@ class Sevkiyat{
         }
     }
 }
+
 
