@@ -1,5 +1,3 @@
-package karışık_sorular;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -182,4 +180,5 @@ public class AkilliEv {
 
         otomasyon.otomasyonuKapat();
     }
+
 }
