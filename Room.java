@@ -77,9 +77,6 @@ void schedule(Room room)
 void disable()
  */
 
-
-package karışık_sorular;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -203,3 +200,4 @@ class Hotel{
         automation.disableRoom();
     }
 }
+
