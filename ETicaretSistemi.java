@@ -1,5 +1,3 @@
-package gemini_karisik_sorular;
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -109,4 +107,5 @@ public class ETicaretSistemi {
         sepetim.sepetiTamamla();
     }
 }
+
 
