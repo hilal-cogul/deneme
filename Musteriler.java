@@ -1,5 +1,3 @@
-package gemini_karisik_sorular;
-
 class KapasiteYetersizException extends Exception {
     public KapasiteYetersizException(String message) {
         super(message);
@@ -150,4 +148,5 @@ class Rezervasyon {
             System.out.println("TARİH ÇAKIŞMASI HATASI : " + e.getMessage());
         }
     }
+
 }
